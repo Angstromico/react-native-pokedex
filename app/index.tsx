@@ -25,15 +25,6 @@ export default function Index() {
             const res = await fetch(pokemon.url);
             const pokemonDetails = await res.json();
 
-            console.log(pokemonDetails);
-
-            /*
-            
-              Each element of the details has cries 
-              
-
-            */
-
             return pokemonDetails;
           })
         );
