@@ -48,6 +48,19 @@ export default function Index() {
 
   return (
     <ScrollView style={{ padding: 16 }}>
+      {/* 🔥 Pokedex Title */}
+      <Text
+        style={{
+          fontSize: 32,
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: 20,
+          color: "#4caf50",
+        }}
+      >
+        My Pokédex
+      </Text>
+
       <View
         style={{
           flexDirection: "row",
